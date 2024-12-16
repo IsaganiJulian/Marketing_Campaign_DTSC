@@ -66,13 +66,10 @@ The dataset used for this project was sourced from Kaggle:
 
 ## 👥 Project Team
 - **Chris Nichols**: Project Manager  
-  *Email*: [chrisnichols1@my.unt.edu](mailto:chrisnichols1@my.unt.edu)
-- **Ellie Bublick**: Project Driver  
-  *Email*: [EllieBublick@my.unt.edu](mailto:EllieBublick@my.unt.edu)
-- **Isagani Hernandez**: Team Member  
-  *Email*: [IsaganiHernandez@my.unt.edu](mailto:IsaganiHernandez@my.unt.edu)
-- **Bijay Upadhyaya**: Team Member  
-  *Email*: [BijayUpadhyaya@my.unt.edu](mailto:BijayUpadhyaya@my.unt.edu)
+
+- **Isagani Hernandez**: Project Drver and Team Member  
+ 
+
 
 ## 🚀 Future Work
 - Extend the analysis to include customer segmentation and personalized marketing.
