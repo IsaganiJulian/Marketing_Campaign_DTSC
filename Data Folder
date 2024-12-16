@@ -1,0 +1,47 @@
+# Data Folder  
+
+## 📁 Datasets Overview  
+
+### 1. **Original Dataset**  
+- **File Name**: `marketing_campaign_performance.csv`  
+- **Source**: [Kaggle - Marketing Campaign Performance Dataset](https://www.kaggle.com/datasets/manishabhatt22/marketing-campaign-performance-dataset/data)  
+- **Description**:  
+  - **Samples**: 10,000 rows  
+  - **Features**: 43 columns, including engineered interaction features.  
+  - **Industry Diversity**: Data spans multiple industries such as finance, healthcare, and e-commerce.  
+  - **Target Variable**: Conversion rate (success of marketing campaigns).  
+- **Issue**:  
+  While this dataset was diverse across industries, further exploratory analysis revealed that it did not fully align with the project’s focus on **SMEs (Small and Medium Enterprises)**. The models built on this dataset underperformed due to a lack of alignment with the targeted audience's unique characteristics.  
+
+---
+
+### 2. **Final Dataset**  
+- **File Name**: `digital_marketing_smes.csv`  
+- **Source**: [Kaggle - Digital Marketing Campaigns for SMEs](https://www.kaggle.com/datasets/farhanmittho/digital-marketing-campaigns-for-smes)  
+- **Description**:  
+  - **Samples**: Over 1,000 rows  
+  - **Features**: 14 columns focused on digital marketing metrics for SMEs.  
+  - **Key Features**:  
+    - `Campaign_Type`: Type of marketing campaign (e.g., email, social media).  
+    - `Ad_Budget`: Total budget for the campaign.  
+    - `Revenue`: Total revenue generated.  
+    - `Conversion_Rate`: Percentage of conversions achieved.  
+  - **Relevance**:  
+    This dataset better aligns with our project’s focus on **SMEs**, providing relevant and actionable insights for this target audience. Models trained on this data demonstrated improved performance and more meaningful results.  
+
+---
+
+## 📄 Notes  
+- The **final dataset** (`digital_marketing_smes.csv`) is recommended for all future analyses and model development.  
+- Ensure preprocessing steps are applied to all datasets before use, including handling missing values, applying one-hot encoding, and scaling features.  
+
+---
+
+## 📂 File Structure  
+
+```plaintext
+data/  
+│  
+├── marketing_campaign_performance.csv   # Original dataset with broader industry focus  
+├── digital_marketing_smes.csv           # Final dataset with SME-specific data  
+└── README.md                            # Data folder documentation  
