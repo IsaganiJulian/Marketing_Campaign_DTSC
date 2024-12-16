@@ -4,7 +4,7 @@
 
 ### 1. **Original Dataset**  
 - **File Name**: `marketing_campaign_performance.csv`  
-- **Source**: [Kaggle - Marketing Campaign Performance Dataset](https://www.kaggle.com/datasets/manishabhatt22/marketing-campaign-performance-dataset/data)  
+- **Source**: Kaggle (Search for "Marketing Campaign Performance Dataset" by Manisha Bhatt)  
 - **Description**:  
   - **Samples**: 10,000 rows  
   - **Features**: 43 columns, including engineered interaction features.  
@@ -17,7 +17,7 @@
 
 ### 2. **Final Dataset**  
 - **File Name**: `digital_marketing_smes.csv`  
-- **Source**: [Kaggle - Digital Marketing Campaigns for SMEs](https://www.kaggle.com/datasets/farhanmittho/digital-marketing-campaigns-for-smes)  
+- **Source**: Kaggle (Search for "Digital Marketing Campaigns for SMEs" by Farhan Mittho)  
 - **Description**:  
   - **Samples**: Over 1,000 rows  
   - **Features**: 14 columns focused on digital marketing metrics for SMEs.  
@@ -45,3 +45,4 @@ data/
 ├── marketing_campaign_performance.csv   # Original dataset with broader industry focus  
 ├── digital_marketing_smes.csv           # Final dataset with SME-specific data  
 └── README.md                            # Data folder documentation  
+
