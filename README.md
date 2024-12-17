@@ -123,9 +123,7 @@ This project is licensed under the **MIT License**.
 ```plaintext
 ├── data/                   # Dataset files  
 ├── notebooks/              # Jupyter Notebooks for development  
-├── models/                 # Trained models  
 ├── results/                # Visualizations, reports, and performance metrics  
-├── src/                    # Python scripts for preprocessing, modeling, and evaluation  
 ├── README.md               # Project documentation  
 └── requirements.txt        # Dependencies and libraries  
 
